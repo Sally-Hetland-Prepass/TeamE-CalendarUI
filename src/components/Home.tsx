@@ -5,12 +5,14 @@ import DashboardHeader from "./DashboardHeader";
 
 const Home: React.FC = () => {
     return (
-        <>
-        <div className="bg-gray">
-           <DashboardHeader title="Team E Hackathon Calendar" />
+    <>
+        <div className="p-8">
+            <div className="bg-gray pb-6">
+              <DashboardHeader title="Team E Hackathon Calendar" />
+            </div>
+            <MyCalendar/>
         </div>
-    <MyCalendar/>
-</>
+    </>
     );
 };
 
