@@ -1,5 +1,4 @@
 import React from "react";  
-import Card from "./Card";
 import MyCalendar from "./MyCalendar";
 import DashboardHeader from "./DashboardHeader";
 
